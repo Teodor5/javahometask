@@ -123,6 +123,4 @@ public class TwentyOne {
         userInput.close();
 
     }
-
-
 }
