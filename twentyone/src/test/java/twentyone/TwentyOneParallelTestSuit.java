@@ -1,4 +1,4 @@
-package twentyone;package
+package twentyone;
 
 
 import org.junit.Test;
@@ -9,17 +9,17 @@ public class TwentyOneParallelTestSuit {
 
     @Test
     public void test() {
-        Class[] cls = { TwentyOneTest.class };
-
-        // Parallel among classes
-        //JUnitCore.runClasses(ParallelComputer.classes(), cls);
-
-        //System.out.println("----------------------------");
+        Class[] cls = {TwentyOneTest.class};
 
         // Parallel among methods in a class
         JUnitCore.runClasses(ParallelComputer.methods(), cls);
 
         System.out.println("----------------------------");
+
+        // Parallel among classes
+        //JUnitCore.runClasses(ParallelComputer.classes(), cls);
+
+        //System.out.println("----------------------------");
 
         // Parallel all methods in all classes
         //JUnitCore.runClasses(new ParallelComputer(true, true), cls);
