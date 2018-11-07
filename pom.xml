@@ -11,6 +11,7 @@
     <modules>
         <module>guessletter</module>
         <module>twentyone</module>
+        <module>shopping</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
