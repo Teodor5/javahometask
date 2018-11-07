@@ -6,6 +6,10 @@ public class ElectronicsItem implements ItemElement {
         this.price=cost;
         this.title =title;
     }
+    public ElectronicsItem( String title){
+        this.title = title;
+    }
+
 
     public int getPrice() {
         return price;

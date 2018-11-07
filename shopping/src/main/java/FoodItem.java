@@ -8,6 +8,9 @@ public class FoodItem implements ItemElement {
         this.price =price;
         this.title = title;
     }
+    public FoodItem(String title){
+        this.title = title;
+    }
 
     public int getPrice() {
         return price;
